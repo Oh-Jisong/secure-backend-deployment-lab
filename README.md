@@ -220,27 +220,24 @@ curl -k https://localhost/health
 
 ---
 
-# 실행 화면
+<h2>📸 실행 화면</h2>
 
-## Swagger UI
-
-<p align="center">
-  <img src="assets/swagger(1).png">
-  <img src="assets/swagger(2).png">
+<h3>Swagger UI</h3>
+<p>
+  <img src="assets/swagger(1).png" alt="Swagger UI" style="max-width: 100%; height: auto;">
+  <img src="assets/swagger(2).png" alt="Swagger UI" style="max-width: 100%; height: auto;">
 </p>
 
-
-## HTTPS 통신 테스트
-
-<p align="center">
-  <img src="assets/https_test.png">
+<h3>HTTPS 통신 테스트</h3>
+<p>
+  <img src="assets/https_test.png" alt="HTTPS Test" style="max-width: 100%; height: auto;">
 </p>
 
-## 컨테이너 실행 상태
-
-<p align="center">
-  <img src="assets/docker_ps.png">
+<h3>컨테이너 실행 상태</h3>
+<p>
+  <img src="assets/docker_ps.png" alt="docker compose ps" style="max-width: 100%; height: auto;">
 </p>
+
 
 ---
 
