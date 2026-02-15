@@ -225,7 +225,8 @@ curl -k https://localhost/health
 ## Swagger UI
 
 <p align="center">
-  <img src="assets/swagger.png" width="800">
+  <img src="assets/swagger(1).png" width="800">
+  <img src="assets/swagger(2).png" width="800">
 </p>
 
 
