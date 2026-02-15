@@ -225,21 +225,21 @@ curl -k https://localhost/health
 ## Swagger UI
 
 <p align="center">
-  <img src="assets/swagger(1).png" width="800">
-  <img src="assets/swagger(2).png" width="800">
+  <img src="assets/swagger(1).png">
+  <img src="assets/swagger(2).png">
 </p>
 
 
 ## HTTPS 통신 테스트
 
 <p align="center">
-  <img src="assets/https_test.png" width="800">
+  <img src="assets/https_test.png">
 </p>
 
 ## 컨테이너 실행 상태
 
 <p align="center">
-  <img src="assets/docker_ps.png" width="800">
+  <img src="assets/docker_ps.png">
 </p>
 
 ---
