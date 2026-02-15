@@ -228,15 +228,12 @@ curl -k https://localhost/health
   <img src="assets/swagger.png" width="800">
 </p>
 
----
 
 ## HTTPS 통신 테스트
 
 <p align="center">
   <img src="assets/https_test.png" width="800">
 </p>
-
----
 
 ## 컨테이너 실행 상태
 
@@ -259,19 +256,23 @@ curl -k https://localhost/health
 
 # 향후 확장 계획
 
-- Let’s Encrypt 인증서 적용
-- CI/CD 자동 배포
-- WAF 연동
-- Rate Limiting 적용
-- JWT 인증 시스템 구축
-- Kubernetes 기반 오케스트레이션
+- [ ] Let’s Encrypt 인증서 적용
+- [ ] CI/CD 자동 배포
+- [ ] WAF 연동
+- [ ] Rate Limiting 적용
+- [ ] JWT 인증 시스템 구축
+- [ ] Kubernetes 기반 오케스트레이션
 
 ---
 
 # 프로젝트 상태
 
 ✔ FastAPI 컨테이너화
+
 ✔ Nginx 리버스 프록시 구성
+
 ✔ HTTPS 암호화 적용
+
 ✔ 보안 헤더 적용
+
 ✔ 배포 테스트 완료
