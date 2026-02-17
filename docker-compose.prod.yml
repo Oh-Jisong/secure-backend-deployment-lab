@@ -1,0 +1,22 @@
+services:
+  api:
+    image: ghcr.io/oh-jisong/secure-backend-deployment-lab-api:latest
+    container_name: sbdl_api
+    expose:
+      - "8000"
+    environment:
+      - ENV=prod
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:latest
+    container_name: sbdl_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - api
+    restart: unless-stopped
