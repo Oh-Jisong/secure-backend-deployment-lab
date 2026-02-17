@@ -10,3 +10,7 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# TLS secrets
+nginx/certs/*.key
+nginx/certs/*.crt
