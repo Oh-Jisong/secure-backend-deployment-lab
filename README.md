@@ -254,11 +254,11 @@ curl -k https://localhost/health
 
 # 향후 확장 계획
 
-- [ ] Let’s Encrypt 인증서 적용
-- [ ] CI/CD 자동 배포
-- [ ] WAF 연동
-- [ ] Rate Limiting 적용
-- [ ] JWT 인증 시스템 구축
+- [X] Let’s Encrypt 인증서 적용
+- [X] CI/CD 자동 배포
+- [X] WAF 연동
+- [X] Rate Limiting 적용
+- [X] JWT 인증 시스템 구축
 - [ ] Kubernetes 기반 오케스트레이션
 
 ---
