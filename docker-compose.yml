@@ -19,3 +19,9 @@ services:
       - ./waf/crs-setup.conf:/etc/nginx/modsec/crs-setup.conf:ro
     depends_on:
       - api
+
+services:
+  api:
+    # build / image whatever you use
+    env_file:
+      - .env
